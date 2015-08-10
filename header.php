@@ -55,6 +55,7 @@ p {
 <div id="head_button_container">
 	<div class="head_button"> <a href="/?cat=18" >Anime</a> </div>
 	<div class="head_button"><a href="/?cat=47" >Personal</a></div>
+	<div class="head_button"> <a href="/tag/review/">Reviews</a></div>
 	<div class="head_button"> <a href="/?cat=27" >Tech</a></div>
 	<div class="head_button all_button"> <a href="/" >All</a> </div>
 </div>   
