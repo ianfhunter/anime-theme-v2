@@ -992,3 +992,18 @@ iframe{
 		background-color: white;
 	}
 }
+@import url(http://fonts.googleapis.com/css?family=Georgia);
+
+span.spoiler {
+    font-family: monospace;
+    background-color: #b30909;
+}
+
+span.spoiler-open {
+    color: #000000;
+    background-color: #f58787;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
