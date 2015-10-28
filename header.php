@@ -49,7 +49,7 @@ p {
 
 <BODY <?php body_class(); ?>>
 <a href="http://weeab.eu" id="banners-main" >
-	<img src="/wp-content/uploads/2014/05/cover2.png" alt="Weeabeu Banner" />
+	<img src="/wp-content/uploads/2015/08/cropped-cover3.png" alt="Weeabeu Banner" />
     <!-- <img src="<?php header_image(); ?>" /> -->
 </a>
 <div id="head_button_container">
