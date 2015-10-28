@@ -1,5 +1,5 @@
 # anime-theme-v2
-Weeabeu Theme
+Weeabeu Wordpress Theme
 
 [See it in action here.][1]
 
