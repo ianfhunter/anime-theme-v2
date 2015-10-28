@@ -1021,3 +1021,8 @@ span.spoiler-open {
        visibility:hidden; 
     }
 }
+
+/* Don't display print button for normal users */
+body:not(.logged-in) .printfriendly{
+	display: none 
+}
