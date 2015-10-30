@@ -33,21 +33,27 @@ wp_head();
 <!--Main Font-->
 <link href="//fonts.googleapis.com/css?family=Open%20Sans&amp;subset=latin" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=Adamina&amp;subset=latin" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Montserrat%20Alternates&amp;subset=latin" rel="stylesheet" type="text/css">
+
 <style>
+h1 {
+ font-family: 'Montserrat Alternates',sans-serif;
+}
+
 #title-name, #title-description {
  font-family: 'Alex Brush', sans-serif;
 }
 p {
  font-family: 'Open Sans', sans-serif;
 }
-.entry-title {
+/*.entry-title {
  font-family: 'Adamina', sans-serif;
-}
+}*/
 </style>
 
 </HEAD>
 
-<BODY <?php body_class(); ?>>
+<body <?php body_class(); ?>>
 <a href="http://weeab.eu" id="banners-main" >
 	<img src="/wp-content/uploads/2015/08/cropped-cover3.png" alt="Weeabeu Banner" />
     <!-- <img src="<?php header_image(); ?>" /> -->
