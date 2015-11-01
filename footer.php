@@ -47,6 +47,9 @@
 			
 	</div><!-- #footer-widget -->
 	<?php noel_credit(); ?>
+<div id="imcred">
+	Background created from icons from TheNounProject under CC - Jordan Skole,parkjisun,Alex Tai,alessandra antonetti,Claudio Gomboli,Ami Tsurugi
+</div>
 </footer><!-- #footer -->
 
 <?php wp_footer(); ?>
