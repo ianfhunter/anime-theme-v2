@@ -1,5 +1,5 @@
 /*
-Theme Name: Anime Crowds 2
+Theme Name: Anime Crowds 2.1 (Weeabeu Ver)
 Theme URI: http://mimic-project.com/
 Author: MIMIC-Project
 Author URI: http://mimic-project.com
@@ -256,6 +256,7 @@ body {
 .main-loop .post-featured-bg {
 	height: 225px;
 	width: 400px;
+	color: white;
 }
 .main-loop .main-thumbnail-link > .post-featured-bg {
 	background-size: 100% 100%;
@@ -1060,4 +1061,11 @@ h5{
 
 .comment-body{
 	text-align:left;
+}
+
+.overlay{
+    width: 400px;
+    height: 225px;
+    position: absolute;
+    font-size:0;
 }

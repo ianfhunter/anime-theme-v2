@@ -11,6 +11,8 @@
 <?php while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('main-loop pad1'); ?>>
     <a class="main-thumbnail-link" href="<?php the_permalink(); ?>">    
+	<div class="overlay" > <?php the_title(); ?> </div>
+    </a>
 		<?php if (has_post_thumbnail( $post->ID ) ): ?>
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 			$image = $image[0]; ?>
@@ -31,7 +33,7 @@
 			</div>
 
 		</div>
-	</a>
+	
 
 </article>
 
